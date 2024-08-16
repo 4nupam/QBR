@@ -135,7 +135,7 @@ const PerformanceChart = () => {
 
   return (
     <div className="w-full ">
-      <div className="relative h-72 md:h-[400px]">
+      <div className="relative h-72 md:h-[300px]">
         <Bar data={data} options={options} />
       </div>
     </div>
